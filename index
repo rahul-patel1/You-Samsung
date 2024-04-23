@@ -1,1 +1,109 @@
 
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Samsung Website</title>
+<style>
+    body {
+        background-color: #f1c40f; /* Yellow background */
+        color: #333;
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+    }
+
+    header {
+        background-color: #3498db; /* Blue header */
+        padding: 10px;
+        text-align: center;
+    }
+
+    nav {
+        display: flex;
+        justify-content: space-around;
+    }
+
+    main {
+        padding: 20px;
+    }
+
+    footer {
+        background-color: #34495e; /* Dark footer */
+        color: #fff;
+        text-align: center;
+        padding: 10px;
+        position: fixed;
+        bottom: 0;
+        width: 100%;
+    }
+
+    .product {
+        margin-bottom: 20px;
+    }
+
+    button {
+        padding: 10px 20px;
+        background-color: #3498db; /* Blue button */
+        color: #fff;
+        border: none;
+        cursor: pointer;
+        margin-right: 10px;
+    }
+
+    form {
+        margin-top: 20px;
+        padding: 10px;
+        background-color: #f9f9f9;
+    }
+
+    input {
+        margin-bottom: 10px;
+    }
+
+    @media (max-width: 768px) {
+        button {
+            width: 100%;
+            margin-bottom: 10px;
+        }
+    }
+</style>
+</head>
+<body>
+<header>
+    <nav>
+        <button>Home</button>
+        <button>Products</button>
+        <button>About Us</button>
+    </nav>
+</header>
+
+<main>
+    <div class="product">
+        <h2>Samsung Galaxy S20</h2>
+        <img src="s20.jpg" alt="Samsung Galaxy S20">
+        <p>The Samsung Galaxy S20 is a flagship smartphone...</p>
+    </div>
+
+    <div class="product">
+        <h2>Samsung Galaxy Watch 3</h2>
+        <img src="watch3.jpg" alt="Samsung Galaxy Watch 3">
+        <p>The Samsung Galaxy Watch 3 is a stylish and functional smartwatch...</p>
+    </div>
+
+    <form>
+        <h3>Contact Us</h3>
+        <input type="text" placeholder="Name">
+        <input type="email" placeholder="Email">
+        <input type="text" placeholder="Message">
+        <button>Submit</button>
+    </form>
+</main>
+
+<footer>
+    &copy; 2021 Samsung. All rights reserved.
+</footer>
+</body>
+</html>
+
