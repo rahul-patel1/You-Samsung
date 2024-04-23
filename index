@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Samsung Website</title>
+    <style>
+        /* CSS Styles */
+        body {
+            background-color: #f2f2f2;
+            font-family: Arial, sans-serif;
+            margin: 0;
+            padding: 0;
+        }
+        
+        header {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+        }
+        
+        header a {
+            color: #fff;
+            text-decoration: none;
+            margin-right: 20px;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 20px;
+            background-color: #fff;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        
+        footer {
+            background-color: #333;
+            color: #fff;
+            padding: 20px;
+            text-align: center;
+        }
+        
+        /* Responsive Styles */
+        @media (max-width: 600px) {
+            header {
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                text-align: center;
+            }
+            
+            header a {
+                margin: 0;
+                margin-top: 10px;
+            }
+            
+            .container {
+                padding: 10px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#">Home</a>
+        <a href="#">Product</a>
+        <a href="#">Buttons</a>
+    </header>
+    
+    <div class="container">
+        <h1>Welcome to Samsung</h1>
+        
+        <img src="samsung.jpg" alt="Samsung Products" width="500">
+        
+        <h2>Product Description</h2>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam feugiat, nisl in commodo bibendum, quam turpis blandit felis, eu sollicitudin sapien orci et turpis. Duis rhoncus ultrices semper. Fusce viverra elit sed ex consequat, in tristique ipsum vehicula.</p>
+        
+        <h2>More Details</h2>
+        <ul>
+            <li>Feature 1</li>
+            <li>Feature 2</li>
+            <li>Feature 3</li>
+        </ul>
+    </div>
+    
+    <footer>
+        &copy; 2024 Samsung. All rights reserved.
+    </footer>
+    
+    <script>
+        // JavaScript code can be added here if needed
+    </script>
+</body>
+</html>
